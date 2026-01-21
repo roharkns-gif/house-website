@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - House Equipment & Home Supplies</title>
+    <meta name="description" content="Learn about our mission, trust, and experience at House Equipment & Home Supplies. Committed to quality home supplies since 2010.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">House Equipment & Home Supplies</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about">
+            <h1>About Us</h1>
+            <div class="about-content">
+                <h2>Our Mission</h2>
+                <p>To provide high-quality, affordable home equipment and supplies that make everyday life easier and more comfortable.</p>
+                <h2>Why Trust Us?</h2>
+                <p>With over 10 years of experience, we prioritize customer satisfaction, offering reliable products and exceptional service.</p>
+                <h2>Our Experience</h2>
+                <p>Founded in 2010, we've served thousands of customers, expanding our range to include everything from kitchen tools to electrical items.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 House Equipment & Home Supplies. All rights reserved.</p>
+    </footer>
+
+    <a href="https://wa.me/1234567890" class="whatsapp-button" target="_blank">💬</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
